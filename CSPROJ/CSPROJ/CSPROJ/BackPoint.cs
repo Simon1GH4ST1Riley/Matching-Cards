@@ -86,6 +86,18 @@ namespace CSPROJ
 
 
         }
+        public void DeletePlayer(int key)
+        {
+            if (key == -1)
+            {
+                return;
+            }
+            Players.Remove(key);
+           
+          
+
+
+        }
         public int GetCount()
         {
             return Players.Count;

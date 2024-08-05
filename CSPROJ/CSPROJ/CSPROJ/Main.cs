@@ -35,15 +35,15 @@ namespace CSPROJ
         {
             this.textBox4.Text = level.ToString();
         }
-        public void UpdateNORC(int Norc)
+        public void UpdateNORC(int Norc) //updating NO. of right clicks
         {
             this.textBox5.Text = Norc.ToString();
         }
-        public void UpdateNOWC(int Nowc)
+        public void UpdateNOWC(int Nowc) //updating NO. of wrong clicks
         {
             this.textBox6.Text = Nowc.ToString();
         }
-        private void Game_Click(object sender, EventArgs e)
+        private void Game_Click(object sender, EventArgs e) 
         {
 
         }
@@ -67,22 +67,9 @@ namespace CSPROJ
                 P1=BackPoint.AllPlayers.GetChosenPlayer();
                 if (P1 != null)
                 { this.textBox1.Text = P1._Name; 
-                switch(P1._Color)
-                    {
-                        case COLOR.Red :
-                            this.BackColor = Color.Red;
-                            break;
-                        case COLOR.Blue:
-                            this.BackColor = Color.Blue;
-                            break;
-                        case COLOR.Yellow :
-                            this.BackColor = Color.Yellow;
-                            break;
-                        default:
-                            this.BackColor = Color.White;
-                            break;
-
-                    }
+         
+                           
+                   
                     this.textBox2.Text = P1._score.ToString();
                     this.textBox3.Text = P1._Duration.ToString();
                     this.textBox4.Text = P1._Maxlvl.ToString();
@@ -215,10 +202,10 @@ namespace CSPROJ
 
         private void Report_History(object sender, EventArgs e)
         {
-           /* this.Close();
-            thread = new Thread(OpenStatisticsForm);
+           this.Close();
+            thread = new Thread(OpenHistoryForm);
             thread.SetApartmentState(ApartmentState.STA);
-            thread.Start();*/
+            thread.Start();
         }
 
         private void timer3_Tick(object sender, EventArgs e)
@@ -263,17 +250,8 @@ namespace CSPROJ
                 switch (P1._Maxlvl + 1)
                 {
                     case 1:
-
-                        Level5 lvl_5 = new Level5();
-                        lvl_5.main = this;
-                        lvl_5.StartButton = this.StartButton;
-                        lvl_5.Show();
-                        this.StartButton.Enabled = false;
-
-
-                        break;
-                    case 5:
                         
+
                         level1 lvl1 = new level1();
                         lvl1.main = this;
                         lvl1.StartButton = this.StartButton;
@@ -282,7 +260,48 @@ namespace CSPROJ
 
 
                         break;
-                   
+
+                    case 2:
+                        
+                        Level2 lvl_2 = new Level2();
+                        lvl_2.main = this;
+                        lvl_2.StartButton = this.StartButton;
+                        lvl_2.Show();
+                        this.StartButton.Enabled = false;
+
+
+                        break;
+                    case 3:
+                        
+                        level3 lvl_3 = new level3();
+                        lvl_3.main = this;
+                        lvl_3.StartButton = this.StartButton;
+                        lvl_3.Show();
+                        this.StartButton.Enabled = false;
+
+
+                        break;
+                    case 4:
+                        
+                        Level4 lvl_4 = new Level4();
+                        lvl_4.main = this;
+                        lvl_4.StartButton = this.StartButton;
+                        lvl_4.Show();
+                        this.StartButton.Enabled = false;
+
+
+                        break;
+                    case 5:
+                        
+                        Level5 lvl_5 = new Level5();
+                        lvl_5.main = this;
+                        lvl_5.StartButton = this.StartButton;
+                        lvl_5.Show();
+                        this.StartButton.Enabled = false;
+
+
+                        break;
+
 
 
 
@@ -302,7 +321,7 @@ namespace CSPROJ
         }
         public void OpenCurrentProfile(object obj)
         {
-            Application.Run(new CurrentProfile());
+            Application.Run(new DeleteProfile());
         }
         public void OpenMainForm(object obj)
         {
@@ -316,13 +335,18 @@ namespace CSPROJ
 
             Application.Run(new Statistics());
         }
-       /* public void OpenHistoryForm(object obj)
+
+       
+         public void OpenHistoryForm(object obj)
+{
+
+
+    Application.Run(new History());
+}
+
+        private void button4_Click(object sender, EventArgs e)
         {
 
-
-            Application.Run(new History());
-        }*/
-
-
+        }
     }
 }

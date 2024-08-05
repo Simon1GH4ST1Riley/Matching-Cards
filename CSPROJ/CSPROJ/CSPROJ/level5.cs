@@ -164,7 +164,7 @@ namespace CSPROJ
                 P1._Duration += this.Duration;
                 timer1.Stop();
              
-                MessageBox.Show("Yaaaaaaaaaay you have finish the whole game!!");
+                MessageBox.Show("Yaaaaaaaaaay you have finished the whole game!!");
                
                 this.Close();
 

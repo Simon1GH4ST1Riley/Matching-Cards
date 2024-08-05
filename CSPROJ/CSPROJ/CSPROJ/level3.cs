@@ -100,7 +100,6 @@ namespace CSPROJ
             }
             main.Updatelevel(3);
          
-                    this.BackgroundImage = Properties.Resources._135739235_epoxy_resin_petri_dish_art_macro_photo_abstract_background;
            
             fillIMGS();
 
@@ -158,6 +157,12 @@ namespace CSPROJ
                 picture.Image = Properties.Resources.level5_cover;
             }
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void timer3_Tick(object sender, EventArgs e)
         {
             timer3.Stop();

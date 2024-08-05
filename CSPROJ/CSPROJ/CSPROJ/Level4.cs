@@ -209,6 +209,11 @@ namespace CSPROJ
             this.Close();
         }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void timer3_Tick(object sender, EventArgs e)
         {
             timer3.Stop();

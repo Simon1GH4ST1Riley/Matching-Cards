@@ -10,40 +10,31 @@ using System.Windows.Forms;
 
 namespace CSPROJ
 {
-    public partial class CurrentProfile : Form
+    public partial class DeleteProfile : Form
     {
         Thread thread;
         Player P1 = BackPoint.AllPlayers.GetChosenPlayer();
-        public CurrentProfile()
+        public DeleteProfile()
         {
             InitializeComponent();
         }
 
         private void Form1_Load(object sender, EventArgs e)
-        {   if (P1 == null)
-            {
-                return;
-            }
-            textBox1.Text = P1._Name;
-            
-            if (P1._Gender == GENDER.Male)
-            {
-                radioButton1.PerformClick();
-            }
-            else 
-            {
-                radioButton2.PerformClick();
-            }
-         
-            listBox1.SetSelected(P1._Age-4,true);
-
+        {  
+            FillList();
 
         }
+        private void FillList()
+        {
+            String[] PlayersNames = BackPoint.AllPlayers.getAllNames();
+            listBox1.DataSource = PlayersNames;
+        }
 
-     
+
 
         private void CloseCurrentinfo(object sender, EventArgs e)
         {
+            BackPoint.AllPlayers.DeletePlayer(listBox1.SelectedIndex);
             this.Close();
             thread = new Thread(OpenMainForm);
             thread.SetApartmentState(ApartmentState.STA);
@@ -53,6 +44,11 @@ namespace CSPROJ
         public void OpenMainForm(object obj)
         {
             Application.Run(new Main());
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

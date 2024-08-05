@@ -30,6 +30,7 @@ namespace CSPROJ
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Level5));
             this.card12 = new System.Windows.Forms.PictureBox();
             this.card11 = new System.Windows.Forms.PictureBox();
             this.card10 = new System.Windows.Forms.PictureBox();
@@ -67,7 +68,7 @@ namespace CSPROJ
             // 
             this.card12.BackColor = System.Drawing.SystemColors.Control;
             this.card12.Location = new System.Drawing.Point(418, 271);
-            this.card12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.card12.Margin = new System.Windows.Forms.Padding(4);
             this.card12.Name = "card12";
             this.card12.Size = new System.Drawing.Size(125, 116);
             this.card12.TabIndex = 12;
@@ -79,7 +80,7 @@ namespace CSPROJ
             // 
             this.card11.BackColor = System.Drawing.SystemColors.Control;
             this.card11.Location = new System.Drawing.Point(144, 271);
-            this.card11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.card11.Margin = new System.Windows.Forms.Padding(4);
             this.card11.Name = "card11";
             this.card11.Size = new System.Drawing.Size(125, 116);
             this.card11.TabIndex = 11;
@@ -91,7 +92,7 @@ namespace CSPROJ
             // 
             this.card10.BackColor = System.Drawing.SystemColors.Control;
             this.card10.Location = new System.Drawing.Point(7, 139);
-            this.card10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.card10.Margin = new System.Windows.Forms.Padding(4);
             this.card10.Name = "card10";
             this.card10.Size = new System.Drawing.Size(125, 116);
             this.card10.TabIndex = 10;
@@ -103,7 +104,7 @@ namespace CSPROJ
             // 
             this.card9.BackColor = System.Drawing.SystemColors.Control;
             this.card9.Location = new System.Drawing.Point(144, 139);
-            this.card9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.card9.Margin = new System.Windows.Forms.Padding(4);
             this.card9.Name = "card9";
             this.card9.Size = new System.Drawing.Size(125, 116);
             this.card9.TabIndex = 9;
@@ -115,7 +116,7 @@ namespace CSPROJ
             // 
             this.card8.BackColor = System.Drawing.SystemColors.Control;
             this.card8.Location = new System.Drawing.Point(418, 7);
-            this.card8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.card8.Margin = new System.Windows.Forms.Padding(4);
             this.card8.Name = "card8";
             this.card8.Size = new System.Drawing.Size(125, 116);
             this.card8.TabIndex = 8;
@@ -127,7 +128,7 @@ namespace CSPROJ
             // 
             this.card7.BackColor = System.Drawing.SystemColors.Control;
             this.card7.Location = new System.Drawing.Point(281, 139);
-            this.card7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.card7.Margin = new System.Windows.Forms.Padding(4);
             this.card7.Name = "card7";
             this.card7.Size = new System.Drawing.Size(125, 116);
             this.card7.TabIndex = 7;
@@ -139,7 +140,7 @@ namespace CSPROJ
             // 
             this.card6.BackColor = System.Drawing.SystemColors.Control;
             this.card6.Location = new System.Drawing.Point(418, 139);
-            this.card6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.card6.Margin = new System.Windows.Forms.Padding(4);
             this.card6.Name = "card6";
             this.card6.Size = new System.Drawing.Size(125, 116);
             this.card6.TabIndex = 6;
@@ -151,7 +152,7 @@ namespace CSPROJ
             // 
             this.card5.BackColor = System.Drawing.SystemColors.Control;
             this.card5.Location = new System.Drawing.Point(281, 271);
-            this.card5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.card5.Margin = new System.Windows.Forms.Padding(4);
             this.card5.Name = "card5";
             this.card5.Size = new System.Drawing.Size(125, 116);
             this.card5.TabIndex = 5;
@@ -163,7 +164,7 @@ namespace CSPROJ
             // 
             this.card4.BackColor = System.Drawing.SystemColors.Control;
             this.card4.Location = new System.Drawing.Point(281, 7);
-            this.card4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.card4.Margin = new System.Windows.Forms.Padding(4);
             this.card4.Name = "card4";
             this.card4.Size = new System.Drawing.Size(125, 116);
             this.card4.TabIndex = 4;
@@ -175,7 +176,7 @@ namespace CSPROJ
             // 
             this.card3.BackColor = System.Drawing.SystemColors.Control;
             this.card3.Location = new System.Drawing.Point(7, 7);
-            this.card3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.card3.Margin = new System.Windows.Forms.Padding(4);
             this.card3.Name = "card3";
             this.card3.Size = new System.Drawing.Size(125, 116);
             this.card3.TabIndex = 3;
@@ -187,7 +188,7 @@ namespace CSPROJ
             // 
             this.card2.BackColor = System.Drawing.SystemColors.Control;
             this.card2.Location = new System.Drawing.Point(144, 7);
-            this.card2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.card2.Margin = new System.Windows.Forms.Padding(4);
             this.card2.Name = "card2";
             this.card2.Size = new System.Drawing.Size(125, 116);
             this.card2.TabIndex = 2;
@@ -199,7 +200,7 @@ namespace CSPROJ
             // 
             this.card1.BackColor = System.Drawing.SystemColors.Control;
             this.card1.Location = new System.Drawing.Point(7, 271);
-            this.card1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.card1.Margin = new System.Windows.Forms.Padding(4);
             this.card1.Name = "card1";
             this.card1.Size = new System.Drawing.Size(125, 116);
             this.card1.TabIndex = 1;
@@ -209,12 +210,12 @@ namespace CSPROJ
             // 
             // Exit_button
             // 
-            this.Exit_button.BackColor = System.Drawing.Color.SlateGray;
-            this.Exit_button.Font = new System.Drawing.Font("Bernard MT Condensed", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Exit_button.BackColor = System.Drawing.Color.Teal;
+            this.Exit_button.Font = new System.Drawing.Font("Broadway", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.Exit_button.Location = new System.Drawing.Point(307, 566);
-            this.Exit_button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Exit_button.Margin = new System.Windows.Forms.Padding(4);
             this.Exit_button.Name = "Exit_button";
-            this.Exit_button.Size = new System.Drawing.Size(159, 58);
+            this.Exit_button.Size = new System.Drawing.Size(164, 68);
             this.Exit_button.TabIndex = 13;
             this.Exit_button.Text = "Exit";
             this.Exit_button.UseVisualStyleBackColor = false;
@@ -253,7 +254,7 @@ namespace CSPROJ
             this.tableLayoutPanel1.Controls.Add(this.card9, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.card6, 3, 1);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(108, 119);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
@@ -272,7 +273,7 @@ namespace CSPROJ
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Unispace", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(307, 38);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
@@ -292,7 +293,8 @@ namespace CSPROJ
             this.Controls.Add(this.Exit_button);
             this.Cursor = System.Windows.Forms.Cursors.Cross;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Level5";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Level5";

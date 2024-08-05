@@ -112,11 +112,11 @@
     <Compile Include="CreateProfile.Designer.cs">
       <DependentUpon>CreateProfile.cs</DependentUpon>
     </Compile>
-    <Compile Include="CurrentProfile.cs">
+    <Compile Include="DeleteProfile.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CurrentProfile.Designer.cs">
-      <DependentUpon>CurrentProfile.cs</DependentUpon>
+    <Compile Include="DeleteProfile.Designer.cs">
+      <DependentUpon>DeleteProfile.cs</DependentUpon>
     </Compile>
     <Compile Include="History.cs">
       <SubType>Form</SubType>
@@ -154,11 +154,11 @@
     <Compile Include="level5.Designer.cs">
       <DependentUpon>level5.cs</DependentUpon>
     </Compile>
-    <Compile Include="Main2.cs">
+    <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Main2.Designer.cs">
-      <DependentUpon>Main2.cs</DependentUpon>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -185,8 +185,8 @@
     <EmbeddedResource Include="CreateProfile.resx">
       <DependentUpon>CreateProfile.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CurrentProfile.resx">
-      <DependentUpon>CurrentProfile.cs</DependentUpon>
+    <EmbeddedResource Include="DeleteProfile.resx">
+      <DependentUpon>DeleteProfile.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="History.resx">
       <DependentUpon>History.cs</DependentUpon>
@@ -206,8 +206,8 @@
     <EmbeddedResource Include="level5.resx">
       <DependentUpon>level5.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Main2.resx">
-      <DependentUpon>Main2.cs</DependentUpon>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NewGame.resx">
       <DependentUpon>NewGame.cs</DependentUpon>
