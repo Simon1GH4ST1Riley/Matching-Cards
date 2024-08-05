@@ -62,7 +62,7 @@ namespace CSPROJ
             }
             return Duration;
         }
-        public int GetNOG()
+        public int GetNOG() //NO. of gmaes played
         { 
 
             int NOG = 0; ; 

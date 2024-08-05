@@ -35,15 +35,15 @@ namespace CSPROJ
         {
             this.textBox4.Text = level.ToString();
         }
-        public void UpdateNORC(int Norc)
+        public void UpdateNORC(int Norc) //updating NO. of right clicks
         {
             this.textBox5.Text = Norc.ToString();
         }
-        public void UpdateNOWC(int Nowc)
+        public void UpdateNOWC(int Nowc) //updating NO. of wrong clicks
         {
             this.textBox6.Text = Nowc.ToString();
         }
-        private void Game_Click(object sender, EventArgs e)
+        private void Game_Click(object sender, EventArgs e) 
         {
 
         }
