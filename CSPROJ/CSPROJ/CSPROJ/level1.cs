@@ -110,22 +110,10 @@ namespace CSPROJ
         private void level1_Load(object sender, EventArgs e)
         {
             main.Updatelevel(1);
-            switch (P1._Color)
-            {
-                case COLOR.Red:
-                    this.BackColor = Color.Red;
-                    break;
-                case COLOR.SeaGreen:
-                    this.BackColor = Color.SeaGreen;
-                    break;
-                case COLOR.Yellow:
-                    this.BackColor = Color.Yellow;
-                    break;
-                default:
-                    this.BackgroundImage = Properties.Resources._135739235_epoxy_resin_petri_dish_art_macro_photo_abstract_background;
-                    break;
+          
+                   
 
-            }
+            
 
 
             fillIMGS();

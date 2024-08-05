@@ -71,7 +71,7 @@
             this.Gamebutton.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Gamebutton.ForeColor = System.Drawing.Color.Black;
             this.Gamebutton.Location = new System.Drawing.Point(-3, 0);
-            this.Gamebutton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Gamebutton.Margin = new System.Windows.Forms.Padding(4);
             this.Gamebutton.MinimumSize = new System.Drawing.Size(164, 68);
             this.Gamebutton.Name = "Gamebutton";
             this.Gamebutton.Size = new System.Drawing.Size(164, 68);
@@ -86,7 +86,7 @@
             this.GameDD.Controls.Add(this.Gamebutton);
             this.GameDD.Controls.Add(this.Game_NewButton);
             this.GameDD.Location = new System.Drawing.Point(8, 1);
-            this.GameDD.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GameDD.Margin = new System.Windows.Forms.Padding(4);
             this.GameDD.MaximumSize = new System.Drawing.Size(167, 139);
             this.GameDD.MinimumSize = new System.Drawing.Size(167, 71);
             this.GameDD.Name = "GameDD";
@@ -100,7 +100,7 @@
             this.Game_EndButton.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Game_EndButton.ForeColor = System.Drawing.Color.Black;
             this.Game_EndButton.Location = new System.Drawing.Point(-1, 103);
-            this.Game_EndButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Game_EndButton.Margin = new System.Windows.Forms.Padding(4);
             this.Game_EndButton.MaximumSize = new System.Drawing.Size(164, 36);
             this.Game_EndButton.MinimumSize = new System.Drawing.Size(164, 12);
             this.Game_EndButton.Name = "Game_EndButton";
@@ -116,7 +116,7 @@
             this.Game_NewButton.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Game_NewButton.ForeColor = System.Drawing.Color.Black;
             this.Game_NewButton.Location = new System.Drawing.Point(-1, 68);
-            this.Game_NewButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Game_NewButton.Margin = new System.Windows.Forms.Padding(4);
             this.Game_NewButton.Name = "Game_NewButton";
             this.Game_NewButton.Size = new System.Drawing.Size(164, 36);
             this.Game_NewButton.TabIndex = 2;
@@ -135,7 +135,7 @@
             this.ProfileDD.Controls.Add(this.Profile_CurrentButton);
             this.ProfileDD.Controls.Add(this.ProfileButton);
             this.ProfileDD.Location = new System.Drawing.Point(183, 1);
-            this.ProfileDD.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ProfileDD.Margin = new System.Windows.Forms.Padding(4);
             this.ProfileDD.MaximumSize = new System.Drawing.Size(167, 139);
             this.ProfileDD.MinimumSize = new System.Drawing.Size(167, 71);
             this.ProfileDD.Name = "ProfileDD";
@@ -149,7 +149,7 @@
             this.Profile_NewButton.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Profile_NewButton.ForeColor = System.Drawing.Color.Black;
             this.Profile_NewButton.Location = new System.Drawing.Point(0, 103);
-            this.Profile_NewButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Profile_NewButton.Margin = new System.Windows.Forms.Padding(4);
             this.Profile_NewButton.MaximumSize = new System.Drawing.Size(164, 36);
             this.Profile_NewButton.MinimumSize = new System.Drawing.Size(164, 12);
             this.Profile_NewButton.Name = "Profile_NewButton";
@@ -165,7 +165,7 @@
             this.Profile_CurrentButton.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Profile_CurrentButton.ForeColor = System.Drawing.Color.Black;
             this.Profile_CurrentButton.Location = new System.Drawing.Point(-1, 68);
-            this.Profile_CurrentButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Profile_CurrentButton.Margin = new System.Windows.Forms.Padding(4);
             this.Profile_CurrentButton.Name = "Profile_CurrentButton";
             this.Profile_CurrentButton.Size = new System.Drawing.Size(164, 36);
             this.Profile_CurrentButton.TabIndex = 2;
@@ -179,7 +179,7 @@
             this.ProfileButton.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ProfileButton.ForeColor = System.Drawing.Color.Black;
             this.ProfileButton.Location = new System.Drawing.Point(-3, 0);
-            this.ProfileButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ProfileButton.Margin = new System.Windows.Forms.Padding(4);
             this.ProfileButton.MinimumSize = new System.Drawing.Size(164, 68);
             this.ProfileButton.Name = "ProfileButton";
             this.ProfileButton.Size = new System.Drawing.Size(164, 68);
@@ -199,7 +199,7 @@
             this.ReportDD.Controls.Add(this.button2);
             this.ReportDD.Controls.Add(this.Report);
             this.ReportDD.Location = new System.Drawing.Point(356, 1);
-            this.ReportDD.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ReportDD.Margin = new System.Windows.Forms.Padding(4);
             this.ReportDD.MaximumSize = new System.Drawing.Size(167, 139);
             this.ReportDD.MinimumSize = new System.Drawing.Size(167, 71);
             this.ReportDD.Name = "ReportDD";
@@ -212,7 +212,7 @@
             this.button1.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Black;
             this.button1.Location = new System.Drawing.Point(-1, 103);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.MaximumSize = new System.Drawing.Size(164, 36);
             this.button1.MinimumSize = new System.Drawing.Size(164, 12);
             this.button1.Name = "button1";
@@ -228,7 +228,7 @@
             this.button2.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.Black;
             this.button2.Location = new System.Drawing.Point(-1, 68);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(164, 36);
             this.button2.TabIndex = 2;
@@ -242,7 +242,7 @@
             this.Report.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Report.ForeColor = System.Drawing.Color.Black;
             this.Report.Location = new System.Drawing.Point(-3, 0);
-            this.Report.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Report.Margin = new System.Windows.Forms.Padding(4);
             this.Report.MinimumSize = new System.Drawing.Size(164, 68);
             this.Report.Name = "Report";
             this.Report.Size = new System.Drawing.Size(164, 68);
@@ -262,7 +262,7 @@
             this.button3.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.Black;
             this.button3.Location = new System.Drawing.Point(619, 1);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.MinimumSize = new System.Drawing.Size(164, 68);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(164, 68);
@@ -287,9 +287,9 @@
             this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(3, 164);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(780, 127);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
@@ -297,7 +297,7 @@
             // textBox6
             // 
             this.textBox6.Location = new System.Drawing.Point(639, 76);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(4);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(132, 22);
             this.textBox6.TabIndex = 11;
@@ -316,7 +316,7 @@
             // textBox5
             // 
             this.textBox5.Location = new System.Drawing.Point(343, 75);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(4);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(132, 22);
             this.textBox5.TabIndex = 9;
@@ -346,7 +346,7 @@
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(72, 76);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(4);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(132, 22);
             this.textBox4.TabIndex = 6;
@@ -354,7 +354,7 @@
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(639, 28);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(132, 22);
             this.textBox3.TabIndex = 5;
@@ -373,7 +373,7 @@
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(341, 28);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(132, 22);
             this.textBox2.TabIndex = 3;
@@ -392,7 +392,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(72, 28);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(132, 22);
             this.textBox1.TabIndex = 1;
@@ -414,7 +414,7 @@
             this.StartButton.Font = new System.Drawing.Font("MV Boli", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StartButton.ForeColor = System.Drawing.Color.Black;
             this.StartButton.Location = new System.Drawing.Point(315, 318);
-            this.StartButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.StartButton.Margin = new System.Windows.Forms.Padding(4);
             this.StartButton.MinimumSize = new System.Drawing.Size(164, 68);
             this.StartButton.Name = "StartButton";
             this.StartButton.Size = new System.Drawing.Size(164, 68);
@@ -428,6 +428,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.BackgroundImage = global::CSPROJ.Properties.Resources._default;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(784, 417);
             this.Controls.Add(this.groupBox1);
@@ -438,7 +439,7 @@
             this.Controls.Add(this.StartButton);
             this.Cursor = System.Windows.Forms.Cursors.Cross;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.Form1_Load);

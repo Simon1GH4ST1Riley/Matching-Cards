@@ -118,31 +118,40 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="135739235-epoxy-resin-petri-dish-art-macro-photo-abstract-background" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\135739235-epoxy-resin-petri-dish-art-macro-photo-abstract-background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="level5_CB" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\TH.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="level5_cover" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\level5_cover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="level5_a" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\level5_a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="level5_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\level5_b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="level5_e" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\level5_e.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="135739235-epoxy-resin-petri-dish-art-macro-photo-abstract-background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\135739235-epoxy-resin-petri-dish-art-macro-photo-abstract-background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="level5_c" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\level5_c.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="level5_d" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\level5_d.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\default.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="level5_e" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\level5_e.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="level5_CB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TH.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="level5_f" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\level5_f.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="level5_d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\level5_d.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="default (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\default (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="level5_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\level5_b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="135739235-epoxy-resin-petri-dish-art-macro-photo-abstract-background1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\135739235-epoxy-resin-petri-dish-art-macro-photo-abstract-background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

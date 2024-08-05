@@ -34,38 +34,13 @@ namespace CSPROJ
             {
                 radioButton2.PerformClick();
             }
-            switch (P1._Color)
-            {
-                case COLOR.SeaGreen :
-                    radioButton4 .PerformClick();
-                    break;
-                case COLOR.Yellow:
-                    radioButton3.PerformClick();
-                    break;
-                case COLOR.Red:
-                    radioButton5.PerformClick();
-                    break;
-
-            }
+         
             listBox1.SetSelected(P1._Age-4,true);
 
 
         }
 
-        private void radioButton4_CheckedChanged(object sender, EventArgs e)
-        {
-            P1._Color = COLOR.SeaGreen;
-        }
-
-        private void radioButton3_CheckedChanged(object sender, EventArgs e)
-        {
-            P1._Color = COLOR.Yellow;
-        }
-
-        private void radioButton5_CheckedChanged(object sender, EventArgs e)
-        {
-            P1._Color = COLOR.Red;
-        }
+     
 
         private void CloseCurrentinfo(object sender, EventArgs e)
         {

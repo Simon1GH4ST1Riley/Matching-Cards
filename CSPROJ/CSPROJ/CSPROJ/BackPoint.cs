@@ -137,7 +137,6 @@ namespace CSPROJ
         private int score;
         private int Age;
         private String Name;
-        private COLOR Color;
         private GENDER Gender;
         private List<String> Movments;
         private bool isChosen;
@@ -146,13 +145,11 @@ namespace CSPROJ
         public int _Maxlvl { get { return this.Maxlvl; }set { this.Maxlvl = value; } }
         public int _Age { get { return this.Age; } }
         public String _Name { get { return this.Name; } }
-        public COLOR _Color { get { return this.Color; } set { this.Color = value; } }
         public GENDER _Gender { get { return this.Gender; } }
         public DateTime _CreationDate { get { return this.Creationdate; } }
         public int _score { set { this.score = value; } get { return this.score; } }
-        public Player(int Age, String Name, COLOR Color, GENDER Gender)
+        public Player(int Age, String Name , GENDER Gender)
         {
-            this.Color = Color;
             this.Age = Age;
             this.Name = Name;
             this.Gender = Gender;

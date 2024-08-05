@@ -10,7 +10,6 @@ namespace CSPROJ
         Thread thread;
         int Age;
         String name;
-        COLOR Color;
         GENDER Gen;
         public CreateProfile()
         {
@@ -37,7 +36,7 @@ namespace CSPROJ
             }
             else
             {
-                Player player = new Player(Age, name, Color, Gen);
+                Player player = new Player(Age, name, Gen);
 
                 BackPoint.AllPlayers.AddtoDict(player);
                 this.Close();
@@ -64,20 +63,7 @@ namespace CSPROJ
             Age=int.Parse((String)listBox1.SelectedItem);
         }
 
-        private void ColorChoiceSeaGreen(object sender, EventArgs e)
-        {
-            Color = COLOR.SeaGreen;
-        }
-
-        private void ColorChoiceYellow(object sender, EventArgs e)
-        {
-            Color = COLOR.Yellow;
-        }
-
-        private void ColorChoiceRed(object sender, EventArgs e)
-        {
-            Color = COLOR.Red;
-        }
+   
 
         private void CreateProfile_Load(object sender, EventArgs e)
         {

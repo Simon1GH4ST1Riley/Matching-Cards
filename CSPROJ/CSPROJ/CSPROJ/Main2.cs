@@ -67,22 +67,9 @@ namespace CSPROJ
                 P1=BackPoint.AllPlayers.GetChosenPlayer();
                 if (P1 != null)
                 { this.textBox1.Text = P1._Name; 
-                switch(P1._Color)
-                    {
-                        case COLOR.Red :
-                            this.BackColor = Color.Red;
-                            break;
-                        case COLOR.SeaGreen:
-                            this.BackColor = Color.SeaGreen;
-                            break;
-                        case COLOR.Yellow :
-                            this.BackColor = Color.Yellow;
-                            break;
-                        default:
-                            this.BackgroundImage = Properties.Resources._135739235_epoxy_resin_petri_dish_art_macro_photo_abstract_background;
-                            break;
-
-                    }
+         
+                           
+                   
                     this.textBox2.Text = P1._score.ToString();
                     this.textBox3.Text = P1._Duration.ToString();
                     this.textBox4.Text = P1._Maxlvl.ToString();
@@ -263,6 +250,7 @@ namespace CSPROJ
                 switch (P1._Maxlvl + 1)
                 {
                     case 1:
+                        
 
                         level1 lvl1 = new level1();
                         lvl1.main = this;
@@ -274,7 +262,7 @@ namespace CSPROJ
                         break;
 
                     case 2:
-
+                        
                         Level2 lvl_2 = new Level2();
                         lvl_2.main = this;
                         lvl_2.StartButton = this.StartButton;
@@ -284,7 +272,7 @@ namespace CSPROJ
 
                         break;
                     case 3:
-
+                        
                         level3 lvl_3 = new level3();
                         lvl_3.main = this;
                         lvl_3.StartButton = this.StartButton;
@@ -294,7 +282,7 @@ namespace CSPROJ
 
                         break;
                     case 4:
-
+                        
                         Level4 lvl_4 = new Level4();
                         lvl_4.main = this;
                         lvl_4.StartButton = this.StartButton;
@@ -304,7 +292,7 @@ namespace CSPROJ
 
                         break;
                     case 5:
-
+                        
                         Level5 lvl_5 = new Level5();
                         lvl_5.main = this;
                         lvl_5.StartButton = this.StartButton;
